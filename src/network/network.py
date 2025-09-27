@@ -38,6 +38,11 @@ class Network:
         logger.info(f"Getting features for '{version_id}'")
 
         # Retry certain times
+        # No idea why the person who created this wants the app to only work on spesific versions. 
+        # i think removing this allows any minecraft version to work with the program. 
+        # the api doesn't update the current minecraft version immediately. it takes a while to 
+        # actually update meaning that this program doesn't work for a period of time while 
+        # the version is 'out of date'.
         data = None
         tries = 0
         while tries <= 3:
