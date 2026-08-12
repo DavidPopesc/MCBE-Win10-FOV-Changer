@@ -579,5 +579,5 @@ class Gateway(pymem.Pymem):
             logger.info("Saved version doesn't match!")
             return False
 
-        logger.info("Saved version ist correct!")
+        logger.info("Saved version is correct!")
         return True

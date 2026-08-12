@@ -12,6 +12,8 @@ pywin32 == 310
 
 requests == 2.32.4
 
+sv_ttk == 2.6.1
+
 # Only for freezing the app
 # But we specifiy an older version, so that 
 # the included bootloaders are already whitelisted

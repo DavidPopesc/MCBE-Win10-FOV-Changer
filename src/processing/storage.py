@@ -518,7 +518,7 @@ class Storage:
 
     STORAGE_TEMPLATE = {
         "mc_version": "",
-        "api": "https://fov.xroix.me/api/",
+        "api": "http://localhost:8000/api/",
         "features_help_url": "https://fov.xroix.me/docs/features#{}",
         "settings_help_url": "https://fov.xroix.me/docs/settings#{}",
         "features": {
